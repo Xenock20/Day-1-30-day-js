@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>Tecla A</kbd>
+      <span class="sound">Split</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>Tecla S</kbd>
+      <span class="sound">Crickets</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>Tecla D</kbd>
+      <span class="sound">Splat</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>Tecla F</kbd>
+      <span class="sound">Mario Power Up</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>Tecla G</kbd>
+      <span class="sound">FBI OPEN UP</span>
+    </div>
+  </div>
+
+
+  <audio data-key="65" src="sound/split.mp3"></audio>
+  <audio data-key="83" src="sound/crickets.mp3"></audio>
+  <audio data-key="68" src="sound/slap.mp3"></audio>
+  <audio data-key="70" src="sound/mpo.mp3"></audio>
+  <audio data-key="71" src="sound/fbi.mp3"></audio>
+
+</body>
+<script src="./main.js"></script>
+</html>
